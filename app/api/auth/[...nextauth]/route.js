@@ -31,7 +31,7 @@ const handler = NextAuth({
                 //checking if user already exist
                 const userExist = await User.findOne({
                     email:profile.email
-                })  
+                })
 
                 console.log("hello user", userExist);
     
