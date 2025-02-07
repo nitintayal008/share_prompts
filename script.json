@@ -1,0 +1,66 @@
+INSERT INTO DataDictionary ( Line, TableName, DataPoint, EntrySequence, Enabled, Display, ForceDisplay, IsRequired, DisplaySummaryStatistics, DisplaySpecLimits, LookupTableName, DataOrigin, AttributeID, AttributeName, SpecificationID, VALMax, VALMin, CPMax, CPMin, CPTarget, CPSTD, DisplayPrecision, UnitOfMeasure, GraphType, TheDefault, SPCReport, ResetTimeMinutes, DropDown, CntrlRmGraphType, CSS_Classes) VALUES
+	('0', 'CorrectiveActionLog', 'Line', '2', 'Y', 'Y', '0', '0', '1', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2', NULL, NULL),
+	('0', 'CorrectiveActionLog', 'EntryDateTime', '1', 'Y', 'Y', '0', '0', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', NULL, NULL),
+	('0', 'CorrectiveActionLog', 'MLSampleID', '4', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'MLTestValueID', '11', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'LocationName', '17', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'CorrectiveAction', '21', 'Y', 'Y', '0', '1', '0', '0', 'CorrectiveActionLog_CorrectiveAction_Type', 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'CorrectiveActionDateTime', '31', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'HoldIncidentID', '41', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'CleanerItemName', '56', 'Y', 'Y', '0', '1', '0', '0', 'CorrectiveActionLog_CleanerItemName_Type', 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'SanitizerItemName', '66', 'Y', 'Y', '0', '1', '0', '0', 'CorrectiveActionLog_SanitizerItemName_Type', 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'Comments', '100', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'EnteredBy', '100', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'ChangedBy', '100', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'ChangedDateTime', '100', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'MLSampleDate', '12', 'Y', 'Y', '0', '1', '0', '0', NULL, 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'MLTestTypeName', '16', 'Y', 'Y', '0', '1', '0', '0', 'MLSampleTestTypes_Language', 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2', NULL, NULL),
+	('0', 'CorrectiveActionLog', 'CorrectiveActionType', '5', 'Y', 'Y', '0', '1', '0', '0', 'MLSampleTypes_Language', 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', NULL, NULL),
+	('0', 'CorrectiveActionLog', 'RecheckSampleID', '10', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'PositiveCount', '7', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'GMPInvestigationCompleted', '8', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'Findings', '9', 'Y', 'Y', '0', '1', '0', '0', NULL, 'Hand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	('0', 'CorrectiveActionLog', 'CorrectiveActionType2', '6', 'Y', 'Y', '0', '1', '0', '0', 'CorrectiveActionLog_CorrectiveActionType2_Type', 'System', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+
+
+INSERT INTO Data_Dictionary_Language (  Data_Dictionary_ID, Language_Tag_ID, Data_Alias, Attribute_Name, Added_Description) VALUES
+	('select Id from DataDictionary where DataPoint = 'EntryDateTime', '1', 'Entry Date', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'MLSampleID', '1', 'Micro Lab Sample ID', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'CorrectiveActionType', '1', 'Corrective Action Type', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'PositiveCount', '1', 'Positive #', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'GMPInvestigationCompleted', '1', 'GMP Investigation Completed', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'Findings', '1', 'Findings', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'RecheckSampleID', '1', 'Recheck Sample ID', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'MLTestValueID', '1', 'Micro Lab Test ID', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'MLSampleDate', '1', 'ML Sample Datetime', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'MLTestTypeName', '1', 'Test Type Name', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'LocationName', '1', 'Location Name', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'CorrectiveAction', '1', 'Corrective Action', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'CorrectiveActionDateTime', '1', 'Corrective Action Datetime', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'HoldIncidentID', '1', 'Hold Incident ID ', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'CleanerItemName', '1', 'Cleaner Item Name', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'SanitizerItemName', '1', 'Sanitizer Item Name', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'ChangedBy', '1', 'Changed By', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'ChangedDateTime', '1', 'Changed Date', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'Comments', '1', 'Comments', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'EnteredBy', '1', 'Entered By', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'Line', '1', 'Line', NULL, NULL),
+	('select Id from DataDictionary where DataPoint = 'CorrectiveActionType2', '1', 'Corrective Action Type 2', NULL, NULL);
+
+
+ 
+INSERT INTO MMsLinks (MMSLinksParentID, LineID, LineNumber, Area, Area_ID, DataTable, LinkOrder, LinkName, LinkParent, LinkLocation, Link, AccessLevel, HelpLink, LinkHint, LinkEnabled, linkPermission) VALUES
+    ('290', '1', '1', NULL, NULL, 'CorrectiveActionLog', '2', 'Corrective Action Log', NULL, 'Side', '/mmslinks/ddtools/pointdata/index.cfm', NULL, NULL, NULL, '1', 'Everyone'),
+   
+ 
+ 
+INSERT into MMS_Link_Language values
+    ((select MMSLinksID from MMsLinks where LinkName='Corrective Action Log' and LineID=1) , 1 , 'Corrective Action Log', 'NULL', NULL, NULL);
+
+
+INSERT INTO MMSMasterTables (tableName, editPage, displayPage, deletePage, displayTransposed, useFinishedGradingCalcs, showEdit, showDelete, showFinishedLengthGradingLink, maxEditAgeHours, IsUSDATable, showProductionRuns, showExportToExcel, showSummary, showNewRecord, showDataDictionary, sqlOrderBy, IgnorePeriodFlag, CustomSelectSQL, AltRowColor, useProcessSpecs, VerificationFlag, hasEmailReport) VALUES
+    ('CorrectiveActionLog', NULL, NULL, NULL, '0', '0', '1', '1', '0', '99999', '0', '1', '1', '1', '1', '1', NULL, '0', '0', NULL, '0', '0', '0');
+ 
+
+
